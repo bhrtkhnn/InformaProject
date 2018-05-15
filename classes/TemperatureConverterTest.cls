@@ -2,7 +2,7 @@
 private class TemperatureConverterTest {
     @isTest static void testWarmTemp() {
         Decimal celsius = TemperatureConverter.FahrenheitToCelsius(70);
-        system.debug('hello');
+        system.debug('hello 1');
         System.assertEquals(21.11,celsius);
     }
     
